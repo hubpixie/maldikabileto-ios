@@ -1,0 +1,450 @@
+
+/* Class = "UIButton"; normalTitle = "次へ"; ObjectID = "1oV-q5-Bjc"; */
+"1oV-q5-Bjc.normalTitle" = "次へ";
+
+/* Class = "UILabel"; text = "未使用"; ObjectID = "2kT-Bj-Mzx"; */
+"2kT-Bj-Mzx.text" = "未使用";
+
+/* Class = "UILabel"; text = "お問い合わせ"; ObjectID = "2uN-0Q-8li"; */
+"2uN-0Q-8li.text" = "お問い合わせ";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "32J-Rd-xip"; */
+"32J-Rd-xip.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "チケットプレビュー"; ObjectID = "36a-lZ-ZTZ"; */
+"36a-lZ-ZTZ.text" = "チケットプレビュー";
+
+/* Class = "UILabel"; text = "使用済"; ObjectID = "3Ck-Wn-dyh"; */
+"3Ck-Wn-dyh.text" = "使用済";
+
+/* Class = "UILabel"; text = "チケット作成時やアプリロック解除に使用"; ObjectID = "3Ff-NJ-8UR"; */
+"3Ff-NJ-8UR.text" = "チケット作成時やアプリロック解除に使用";
+
+/* Class = "UIBarButtonItem"; title = "自分で使う"; ObjectID = "3ao-Oh-QuQ"; */
+"3ao-Oh-QuQ.title" = "自分で使う";
+
+/* Class = "UIButton"; normalTitle = "次へ"; ObjectID = "3f8-cr-Umt"; */
+"3f8-cr-Umt.normalTitle" = "次へ";
+
+/* Class = "UILabel"; text = "ID: 1234567890"; ObjectID = "3g4-cF-gsL"; */
+"3g4-cF-gsL.text" = "ID: 1234567890";
+
+/* Class = "UIButton"; normalTitle = "レシートを送る"; ObjectID = "3jR-4x-7hW"; */
+"3jR-4x-7hW.normalTitle" = "レシートを送る";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "42z-dy-XzP"; */
+"42z-dy-XzP.normalTitle" = "4";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "4JL-15-ya2"; */
+"4JL-15-ya2.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITextField"; placeholder = "現在のメールアドレス"; ObjectID = "4tL-9W-J62"; */
+"4tL-9W-J62.placeholder" = "現在のメールアドレス";
+
+/* Class = "UITextField"; placeholder = "パスワード（確認）"; ObjectID = "54Q-nX-HlU"; */
+"54Q-nX-HlU.placeholder" = "パスワード（確認）";
+
+/* Class = "UILabel"; text = "生年月日"; ObjectID = "5bj-hh-5TD"; */
+"5bj-hh-5TD.text" = "生年月日";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "5ie-E2-AV2"; */
+"5ie-E2-AV2.normalTitle" = "OK";
+
+/* Class = "UITextField"; placeholder = "新しいパスワード（確認）"; ObjectID = "6A7-nb-AK0"; */
+"6A7-nb-AK0.placeholder" = "新しいパスワード（確認）";
+
+/* Class = "UILabel"; text = "パスワードをお忘れの方はこちら"; ObjectID = "6Vy-Kg-bXk"; */
+"6Vy-Kg-bXk.text" = "パスワードをお忘れの方はこちら";
+
+/* Class = "UILabel"; text = "決済失敗"; ObjectID = "7TV-Wv-nVY"; */
+"7TV-Wv-nVY.text" = "決済失敗";
+
+/* Class = "UILabel"; text = "タイトルタイトルタイトル"; ObjectID = "7dz-60-PAR"; */
+"7dz-60-PAR.text" = "タイトルタイトルタイトル";
+
+/* Class = "UIButton"; normalTitle = "プレゼントする"; ObjectID = "8Mz-nY-gtr"; */
+"8Mz-nY-gtr.normalTitle" = "プレゼントする";
+
+/* Class = "UILabel"; text = "作成日: 2018/9/01"; ObjectID = "9K9-SH-EVQ"; */
+"9K9-SH-EVQ.text" = "作成日: 2018/9/01";
+
+/* Class = "UILabel"; text = "自分で使う"; ObjectID = "9zX-Re-rkc"; */
+"9zX-Re-rkc.text" = "自分で使う";
+
+/* Class = "UIButton"; normalTitle = "ログイン"; ObjectID = "BCm-L1-WQb"; */
+"BCm-L1-WQb.normalTitle" = "ログイン";
+
+/* Class = "UILabel"; text = "あなたのfacebookには一切投稿されません"; ObjectID = "BMZ-Ww-qT0"; */
+"BMZ-Ww-qT0.text" = "あなたのfacebookには一切投稿されません";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "Blj-sn-yNy"; */
+"Blj-sn-yNy.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "13,000円"; ObjectID = "D0V-CM-GZh"; */
+"D0V-CM-GZh.text" = "13,000円";
+
+/* Class = "UIButton"; normalTitle = "設定"; ObjectID = "DY8-jS-bfF"; */
+"DY8-jS-bfF.normalTitle" = "設定";
+
+/* Class = "UILabel"; text = "2,000円"; ObjectID = "EBg-6U-fMk"; */
+"EBg-6U-fMk.text" = "2,000円";
+
+/* Class = "UITabBarItem"; title = "チケット"; ObjectID = "Ecb-mc-jhP"; */
+"Ecb-mc-jhP.title" = "チケット";
+
+/* Class = "UILabel"; text = "支払い方法： クレジットカード (Master****1234"; ObjectID = "Efz-Q7-bSI"; */
+"Efz-Q7-bSI.text" = "支払い方法： クレジットカード (Master****1234";
+
+/* Class = "UIButton"; normalTitle = "設定"; ObjectID = "FHd-am-5gi"; */
+"FHd-am-5gi.normalTitle" = "設定";
+
+/* Class = "UILabel"; text = "セキュリティコード"; ObjectID = "GfM-ah-c4F"; */
+"GfM-ah-c4F.text" = "セキュリティコード";
+
+/* Class = "UIButton"; normalTitle = "キャンセル"; ObjectID = "H68-Nm-r7M"; */
+"H68-Nm-r7M.normalTitle" = "キャンセル";
+
+/* Class = "UILabel"; text = "新しい電話番号へ 確認SMSを送りました"; ObjectID = "HWi-w5-3IZ"; */
+"HWi-w5-3IZ.text" = "新しい電話番号へ 確認SMSを送りました";
+
+/* Class = "UILabel"; text = "有効期間： 2018/10/1"; ObjectID = "HYZ-SL-2G7"; */
+"HYZ-SL-2G7.text" = "有効期間： 2018/10/1";
+
+/* Class = "UILabel"; text = "電話番号を入力してください"; ObjectID = "HnX-8v-xdB"; */
+"HnX-8v-xdB.text" = "電話番号を入力してください";
+
+/* Class = "UILabel"; text = "あなたのfacebookには一切投稿されません"; ObjectID = "Hqx-2F-xXk"; */
+"Hqx-2F-xXk.text" = "あなたのfacebookには一切投稿されません";
+
+/* Class = "UITextField"; placeholder = "メールアドレス"; ObjectID = "Hth-Sd-gzd"; */
+"Hth-Sd-gzd.placeholder" = "メールアドレス";
+
+/* Class = "UILabel"; text = "使用済"; ObjectID = "I8O-Br-HHG"; */
+"I8O-Br-HHG.text" = "使用済";
+
+/* Class = "UILabel"; text = "この画面をお支払い時に提示してください"; ObjectID = "IBx-aM-I4z"; */
+"IBx-aM-I4z.text" = "この画面をお支払い時に提示してください";
+
+/* Class = "UIButton"; normalTitle = "c"; ObjectID = "J4d-b0-vsM"; */
+"J4d-b0-vsM.normalTitle" = "c";
+
+/* Class = "UILabel"; text = "approve"; ObjectID = "J5f-Op-Mul"; */
+"J5f-Op-Mul.text" = "approve";
+
+/* Class = "UILabel"; text = "作成日: 2018/9/01"; ObjectID = "JFp-84-qxs"; */
+"JFp-84-qxs.text" = "作成日: 2018/9/01";
+
+/* Class = "UILabel"; text = "標準カードに設定"; ObjectID = "JGJ-eO-cKb"; */
+"JGJ-eO-cKb.text" = "標準カードに設定";
+
+/* Class = "UIButton"; normalTitle = "facebookを使用する"; ObjectID = "JVQ-fl-91V"; */
+"JVQ-fl-91V.normalTitle" = "facebookを使用する";
+
+/* Class = "UILabel"; text = "支払い方法"; ObjectID = "LRA-SF-2cr"; */
+"LRA-SF-2cr.text" = "支払い方法";
+
+/* Class = "UIButton"; normalTitle = "c"; ObjectID = "N2z-rw-D2r"; */
+"N2z-rw-D2r.normalTitle" = "c";
+
+/* Class = "UITabBarItem"; title = "設定"; ObjectID = "NLU-n8-BLs"; */
+"NLU-n8-BLs.title" = "設定";
+
+/* Class = "UILabel"; text = "未使用"; ObjectID = "NQA-Oh-dqY"; */
+"NQA-Oh-dqY.text" = "未使用";
+
+/* Class = "UILabel"; text = "認証コードを入力して下さい"; ObjectID = "NXh-TW-SMs"; */
+"NXh-TW-SMs.text" = "認証コードを入力して下さい";
+
+/* Class = "UILabel"; text = "カード番号"; ObjectID = "NYb-YW-cpr"; */
+"NYb-YW-cpr.text" = "カード番号";
+
+/* Class = "UILabel"; text = "レシート"; ObjectID = "NZo-76-zVy"; */
+"NZo-76-zVy.text" = "レシート";
+
+/* Class = "UILabel"; text = "支払い方法： クレジットカード (Master****1234"; ObjectID = "OE2-xG-gRK"; */
+"OE2-xG-gRK.text" = "支払い方法： クレジットカード (Master****1234";
+
+/* Class = "UILabel"; text = "決済金額： 8,000円"; ObjectID = "Ojh-Ug-JNF"; */
+"Ojh-Ug-JNF.text" = "決済金額： 8,000円";
+
+/* Class = "UITextField"; placeholder = "パスワード"; ObjectID = "Oub-iE-0AN"; */
+"Oub-iE-0AN.placeholder" = "パスワード";
+
+/* Class = "UILabel"; text = "2018/10/10"; ObjectID = "Oz6-2M-DKk"; */
+"Oz6-2M-DKk.text" = "2018/10/10";
+
+/* Class = "UILabel"; text = "または"; ObjectID = "PQP-xQ-YsR"; */
+"PQP-xQ-YsR.text" = "または";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "Pwu-FH-ZlA"; */
+"Pwu-FH-ZlA.normalTitle" = "2";
+
+/* Class = "UITextField"; placeholder = "新しいメールアドレス"; ObjectID = "QZy-ch-PFg"; */
+"QZy-ch-PFg.placeholder" = "新しいメールアドレス";
+
+/* Class = "UILabel"; text = "チケットプレビュー"; ObjectID = "QsO-SF-tJS"; */
+"QsO-SF-tJS.text" = "チケットプレビュー";
+
+/* Class = "UITabBarItem"; title = "お知らせ"; ObjectID = "RMY-gp-s0t"; */
+"RMY-gp-s0t.title" = "お知らせ";
+
+/* Class = "UILabel"; text = "性別"; ObjectID = "Rz5-ls-oGr"; */
+"Rz5-ls-oGr.text" = "性別";
+
+/* Class = "UIButton"; normalTitle = "次へ"; ObjectID = "S5k-6i-vPP"; */
+"S5k-6i-vPP.normalTitle" = "次へ";
+
+/* Class = "UIButton"; normalTitle = "カード選択 "; ObjectID = "SU8-0O-FDN"; */
+"SU8-0O-FDN.normalTitle" = "カード選択 ";
+
+/* Class = "UILabel"; text = "タイトル"; ObjectID = "Ses-ka-a4V"; */
+"Ses-ka-a4V.text" = "タイトル";
+
+/* Class = "UIButton"; normalTitle = "新しいクレジットカードを追加"; ObjectID = "TVK-9p-kh8"; */
+"TVK-9p-kh8.normalTitle" = "新しいクレジットカードを追加";
+
+/* Class = "UILabel"; text = "ID: 1234567890"; ObjectID = "TXj-Ed-YAp"; */
+"TXj-Ed-YAp.text" = "ID: 1234567890";
+
+/* Class = "UIButton"; normalTitle = "再送信"; ObjectID = "Tld-cT-Cub"; */
+"Tld-cT-Cub.normalTitle" = "再送信";
+
+/* Class = "UILabel"; text = "認証コードを入力してください"; ObjectID = "UIy-x5-Hu5"; */
+"UIy-x5-Hu5.text" = "認証コードを入力してください";
+
+/* Class = "UIButton"; normalTitle = "facebookを使用する"; ObjectID = "Vbb-C2-u4x"; */
+"Vbb-C2-u4x.normalTitle" = "facebookを使用する";
+
+/* Class = "UILabel"; text = "作成日: 2018/09/01"; ObjectID = "Vrd-Qq-nFM"; */
+"Vrd-Qq-nFM.text" = "作成日: 2018/09/01";
+
+/* Class = "UIButton"; normalTitle = "チケット取り消し"; ObjectID = "WEK-Yp-xD9"; */
+"WEK-Yp-xD9.normalTitle" = "チケット取り消し";
+
+/* Class = "UILabel"; text = "または"; ObjectID = "WsS-cK-iHX"; */
+"WsS-cK-iHX.text" = "または";
+
+/* Class = "UILabel"; text = "支払い方法"; ObjectID = "Wv8-Vc-BXj"; */
+"Wv8-Vc-BXj.text" = "支払い方法";
+
+/* Class = "UILabel"; text = "使用期限"; ObjectID = "XIQ-Rd-uDL"; */
+"XIQ-Rd-uDL.text" = "使用期限";
+
+/* Class = "UIButton"; normalTitle = "Googleを使用する"; ObjectID = "XWm-YR-aJt"; */
+"XWm-YR-aJt.normalTitle" = "Googleを使用する";
+
+/* Class = "UILabel"; text = "ID: 1234567890"; ObjectID = "XpW-gy-GnL"; */
+"XpW-gy-GnL.text" = "ID: 1234567890";
+
+/* Class = "UILabel"; text = "有効期限：09/2020"; ObjectID = "YmI-Yl-hYP"; */
+"YmI-Yl-hYP.text" = "有効期限：09/2020";
+
+/* Class = "UITextField"; placeholder = "現在のパスワード"; ObjectID = "YtJ-dN-olK"; */
+"YtJ-dN-olK.placeholder" = "現在のパスワード";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "Z4n-lY-YAj"; */
+"Z4n-lY-YAj.normalTitle" = "7";
+
+/* Class = "UIButton"; disabledTitle = "標準カードに登録中"; ObjectID = "Z6B-Fx-A0Z"; */
+"Z6B-Fx-A0Z.disabledTitle" = "標準カードに登録中";
+
+/* Class = "UIButton"; normalTitle = "標準カードに設定"; ObjectID = "Z6B-Fx-A0Z"; */
+"Z6B-Fx-A0Z.normalTitle" = "標準カードに設定";
+
+/* Class = "UILabel"; text = "パスワード確認"; ObjectID = "Z96-kd-28v"; */
+"Z96-kd-28v.text" = "パスワード確認";
+
+/* Class = "UIButton"; normalTitle = "パスワードリセット"; ObjectID = "aka-JZ-AzO"; */
+"aka-JZ-AzO.normalTitle" = "パスワードリセット";
+
+/* Class = "UIButton"; normalTitle = "はじめる"; ObjectID = "b3Y-Gx-xWG"; */
+"b3Y-Gx-xWG.normalTitle" = "はじめる";
+
+/* Class = "UIButton"; normalTitle = "8"; ObjectID = "bFY-qK-iF1"; */
+"bFY-qK-iF1.normalTitle" = "8";
+
+/* Class = "UIButton"; normalTitle = "9"; ObjectID = "bFu-vC-n3o"; */
+"bFu-vC-n3o.normalTitle" = "9";
+
+/* Class = "UIButton"; normalTitle = "新規登録"; ObjectID = "bMg-1l-SbK"; */
+"bMg-1l-SbK.normalTitle" = "新規登録";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "boG-GZ-Vhd"; */
+"boG-GZ-Vhd.normalTitle" = "5";
+
+/* Class = "UITextField"; placeholder = "新しいパスワード"; ObjectID = "bsa-Dy-e46"; */
+"bsa-Dy-e46.placeholder" = "新しいパスワード";
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "cLG-7H-QOB"; */
+"cLG-7H-QOB.normalTitle" = "6";
+
+/* Class = "UILabel"; text = "Facebookと連携"; ObjectID = "cOS-Q2-637"; */
+"cOS-Q2-637.text" = "Facebookと連携";
+
+/* Class = "UILabel"; text = "自分で使用"; ObjectID = "cRg-wy-egI"; */
+"cRg-wy-egI.text" = "自分で使用";
+
+/* Class = "UIButton"; normalTitle = "再送信"; ObjectID = "cj3-SK-LUG"; */
+"cj3-SK-LUG.normalTitle" = "再送信";
+
+/* Class = "UILabel"; text = "ID: 1234567890"; ObjectID = "d27-83-qmB"; */
+"d27-83-qmB.text" = "ID: 1234567890";
+
+/* Class = "UITextField"; placeholder = "メールアドレス"; ObjectID = "dRg-ke-110"; */
+"dRg-ke-110.placeholder" = "メールアドレス";
+
+/* Class = "UIButton"; normalTitle = "Googleを使用する"; ObjectID = "ddl-da-N7u"; */
+"ddl-da-N7u.normalTitle" = "Googleを使用する";
+
+/* Class = "UILabel"; text = "支払い方法： クレジットカード (Master****1234"; ObjectID = "drv-A9-f1k"; */
+"drv-A9-f1k.text" = "支払い方法： クレジットカード (Master****1234";
+
+/* Class = "UILabel"; text = "メールアドレス"; ObjectID = "dwF-Vn-RXz"; */
+"dwF-Vn-RXz.text" = "メールアドレス";
+
+/* Class = "UILabel"; text = "あなたのfacebookには一切投稿されません"; ObjectID = "eIj-MN-fHr"; */
+"eIj-MN-fHr.text" = "あなたのfacebookには一切投稿されません";
+
+/* Class = "UIButton"; normalTitle = "送信"; ObjectID = "f26-sv-XcQ"; */
+"f26-sv-XcQ.normalTitle" = "送信";
+
+/* Class = "UILabel"; text = "有効期間： 2018/10/01"; ObjectID = "fSx-2y-g1F"; */
+"fSx-2y-g1F.text" = "有効期間： 2018/10/01";
+
+/* Class = "UILabel"; text = "作成日: 2018/9/01"; ObjectID = "fXl-fs-nRC"; */
+"fXl-fs-nRC.text" = "作成日: 2018/9/01";
+
+/* Class = "UILabel"; text = "新しい電話番号を入力して下さい"; ObjectID = "gGo-1t-ZTW"; */
+"gGo-1t-ZTW.text" = "新しい電話番号を入力して下さい";
+
+/* Class = "UILabel"; text = "パスワード"; ObjectID = "gLI-9i-6nT"; */
+"gLI-9i-6nT.text" = "パスワード";
+
+/* Class = "UILabel"; text = "メールアドレス またはSNSでログイン"; ObjectID = "gcu-rv-2MV"; */
+"gcu-rv-2MV.text" = "メールアドレス またはSNSでログイン";
+
+/* Class = "UILabel"; text = "タイトルタイトルタイトル"; ObjectID = "gj0-hF-QxO"; */
+"gj0-hF-QxO.text" = "タイトルタイトルタイトル";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "h6d-kl-ZwU"; */
+"h6d-kl-ZwU.normalTitle" = "3";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "hIc-Vk-w12"; */
+"hIc-Vk-w12.normalTitle" = "0";
+
+/* Class = "UILabel"; text = "Enter Passcode"; ObjectID = "hjt-nZ-5Rd"; */
+"hjt-nZ-5Rd.text" = "Enter Passcode";
+
+/* Class = "UILabel"; text = "ID: 1234567890"; ObjectID = "hsL-Kf-zbL"; */
+"hsL-Kf-zbL.text" = "ID: 1234567890";
+
+/* Class = "UILabel"; text = "作成日: 2018/9/01"; ObjectID = "hxv-cr-Ek9"; */
+"hxv-cr-Ek9.text" = "作成日: 2018/9/01";
+
+/* Class = "UILabel"; text = "ニックネーム"; ObjectID = "iMh-jW-Nvn"; */
+"iMh-jW-Nvn.text" = "ニックネーム";
+
+/* Class = "UILabel"; text = "レシート"; ObjectID = "iUz-ej-9Tt"; */
+"iUz-ej-9Tt.text" = "レシート";
+
+/* Class = "UILabel"; text = "有効期間： 2018/10/01"; ObjectID = "id7-tb-r5t"; */
+"id7-tb-r5t.text" = "有効期間： 2018/10/01";
+
+/* Class = "UIButton"; normalTitle = "次へ"; ObjectID = "ih2-m9-f5s"; */
+"ih2-m9-f5s.normalTitle" = "次へ";
+
+/* Class = "UILabel"; text = "確認SMSを送りました"; ObjectID = "ixt-Hs-p1s"; */
+"ixt-Hs-p1s.text" = "確認SMSを送りました";
+
+/* Class = "UILabel"; text = "タイトルタイトルタイトル"; ObjectID = "iyc-tI-vhd"; */
+"iyc-tI-vhd.text" = "タイトルタイトルタイトル";
+
+/* Class = "UILabel"; text = "プロフィール登録"; ObjectID = "izP-UN-eKc"; */
+"izP-UN-eKc.text" = "プロフィール登録";
+
+/* Class = "UILabel"; text = "メールアドレス"; ObjectID = "j4p-KI-75I"; */
+"j4p-KI-75I.text" = "メールアドレス";
+
+/* Class = "UILabel"; text = "VISA********5678"; ObjectID = "jdX-gh-AH8"; */
+"jdX-gh-AH8.text" = "VISA********5678";
+
+/* Class = "UILabel"; text = "Googleと連携"; ObjectID = "lCi-zX-hRY"; */
+"lCi-zX-hRY.text" = "Googleと連携";
+
+/* Class = "UILabel"; text = "チケットがありません。"; ObjectID = "m7H-E9-4ow"; */
+"m7H-E9-4ow.text" = "チケットがありません。";
+
+/* Class = "UILabel"; text = "2,000円"; ObjectID = "nbr-Kl-mZl"; */
+"nbr-Kl-mZl.text" = "2,000円";
+
+/* Class = "UILabel"; text = "メールアドレス またはSNSで登録"; ObjectID = "nlU-cT-P6I"; */
+"nlU-cT-P6I.text" = "メールアドレス またはSNSで登録";
+
+/* Class = "UILabel"; text = "決済日時： 2018/09/02 13:12"; ObjectID = "oCt-QS-mvK"; */
+"oCt-QS-mvK.text" = "決済日時： 2018/09/02 13:12";
+
+/* Class = "UILabel"; text = "2018/10/01"; ObjectID = "oNU-8L-5HB"; */
+"oNU-8L-5HB.text" = "2018/10/01";
+
+/* Class = "UILabel"; text = "パスワード"; ObjectID = "p4s-Rw-MJC"; */
+"p4s-Rw-MJC.text" = "パスワード";
+
+/* Class = "UIButton"; normalTitle = "次へ"; ObjectID = "pHp-6C-xgb"; */
+"pHp-6C-xgb.normalTitle" = "次へ";
+
+/* Class = "UILabel"; text = "金額"; ObjectID = "pom-Ez-w3h"; */
+"pom-Ez-w3h.text" = "金額";
+
+/* Class = "UILabel"; text = "SNSと連携するとログイン時のパスワード入力 がいらなくなります"; ObjectID = "qKq-Dr-LUx"; */
+"qKq-Dr-LUx.text" = "SNSと連携するとログイン時のパスワード入力 がいらなくなります";
+
+/* Class = "UILabel"; text = "決済店舗： Forge Cafe"; ObjectID = "r6V-pk-V5X"; */
+"r6V-pk-V5X.text" = "決済店舗： Forge Cafe";
+
+/* Class = "UILabel"; text = "会員登録・ログイン"; ObjectID = "rTc-R7-iVf"; */
+"rTc-R7-iVf.text" = "会員登録・ログイン";
+
+/* Class = "UILabel"; text = "決済エラー： %@ %@"; ObjectID = "rfB-G7-tfZ"; */
+"rfB-G7-tfZ.text" = "決済エラー： %@ %@";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "sFv-yR-veI"; */
+"sFv-yR-veI.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "アプリ起動時にロックをかけることができます"; ObjectID = "svb-7Y-vWG"; */
+"svb-7Y-vWG.text" = "アプリ起動時にロックをかけることができます";
+
+/* Class = "UILabel"; text = "チケットリスト"; ObjectID = "syR-fx-MBz"; */
+"syR-fx-MBz.text" = "チケットリスト";
+
+/* Class = "UILabel"; text = "有効期限"; ObjectID = "t8J-rC-7z1"; */
+"t8J-rC-7z1.text" = "有効期限";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "tnv-IR-zcT"; */
+"tnv-IR-zcT.normalTitle" = "1";
+
+/* Class = "UILabel"; text = "支払い方法： クレジットカード (Master****1234"; ObjectID = "twE-ay-CPr"; */
+"twE-ay-CPr.text" = "支払い方法： クレジットカード (Master****1234";
+
+/* Class = "UILabel"; text = "ニックネーム"; ObjectID = "ujs-Y5-Pdw"; */
+"ujs-Y5-Pdw.text" = "ニックネーム";
+
+/* Class = "UIButton"; normalTitle = "チケット取り消し"; ObjectID = "wGR-DZ-ORE"; */
+"wGR-DZ-ORE.normalTitle" = "チケット取り消し";
+
+/* Class = "UIButton"; normalTitle = "登録する"; ObjectID = "woZ-E2-hFN"; */
+"woZ-E2-hFN.normalTitle" = "登録する";
+
+/* Class = "UIButton"; normalTitle = "次へ"; ObjectID = "y16-TJ-ExS"; */
+"y16-TJ-ExS.normalTitle" = "次へ";
+
+/* Class = "UILabel"; text = "お知らせがありません。"; ObjectID = "ypU-SN-Bqm"; */
+"ypU-SN-Bqm.text" = "お知らせがありません。";
+
+/* Class = "UIButton"; normalTitle = "設定"; ObjectID = "ytg-oR-7AF"; */
+"ytg-oR-7AF.normalTitle" = "設定";
+
+/* Class = "UIButton"; normalTitle = "削除"; ObjectID = "z99-F0-jAR"; */
+"z99-F0-jAR.normalTitle" = "削除";
+
+/* Class = "UILabel"; text = "2018/10/01"; ObjectID = "zpT-O9-tl7"; */
+"zpT-O9-tl7.text" = "2018/10/01";

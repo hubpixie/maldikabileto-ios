@@ -1,0 +1,147 @@
+name: Alamofire, nameSpecified: 
+body: Copyright (c) 2014-2…
+version: 4.5.1
+
+name: Alamofire, nameSpecified: 
+body: Copyright (c) 2014-2…
+version: 4.5.1
+
+name: Bolts, nameSpecified: 
+body: BSD License
+
+For Bol…
+version: 1.9.0
+
+name: Bolts, nameSpecified: 
+body: BSD License
+
+For Bol…
+version: 1.9.0
+
+name: FBSDKCoreKit, nameSpecified: 
+body: Copyright (c) 2014-p…
+version: 4.35.0
+
+name: FBSDKCoreKit, nameSpecified: 
+body: Copyright (c) 2014-p…
+version: 4.35.0
+
+name: FBSDKLoginKit, nameSpecified: 
+body: Copyright (c) 2014-p…
+version: 4.35.0
+
+name: FBSDKLoginKit, nameSpecified: 
+body: Copyright (c) 2014-p…
+version: 4.35.0
+
+name: Firebase, nameSpecified: 
+body: Copyright 2018 Googl…
+version: 5.4.1
+
+name: Firebase, nameSpecified: 
+body: Copyright 2018 Googl…
+version: 5.4.1
+
+name: FirebaseAnalytics, nameSpecified: 
+body: Copyright 2018 Googl…
+version: 5.0.1
+
+name: FirebaseAnalytics, nameSpecified: 
+body: Copyright 2018 Googl…
+version: 5.0.1
+
+name: FirebaseAuth, nameSpecified: 
+body: 
+                   …
+version: 5.0.2
+
+name: FirebaseAuth, nameSpecified: 
+body: 
+                   …
+version: 5.0.2
+
+name: FirebaseCore, nameSpecified: 
+body: 
+                   …
+version: 5.0.6
+
+name: FirebaseCore, nameSpecified: 
+body: 
+                   …
+version: 5.0.6
+
+name: FirebaseInstanceID, nameSpecified: 
+body: Copyright 2018 Googl…
+version: 3.1.1
+
+name: FirebaseInstanceID, nameSpecified: 
+body: Copyright 2018 Googl…
+version: 3.1.1
+
+name: FirebaseMessaging, nameSpecified: 
+body: 
+                   …
+version: 3.0.3
+
+name: FirebaseMessaging, nameSpecified: 
+body: 
+                   …
+version: 3.0.3
+
+name: GoogleSignIn, nameSpecified: 
+body: Copyright 2018 Googl…
+version: 4.1.2
+
+name: GoogleSignIn, nameSpecified: 
+body: Copyright 2018 Googl…
+version: 4.1.2
+
+name: GoogleToolboxForMac, nameSpecified: 
+body: 
+                   …
+version: 2.1.4
+
+name: GoogleToolboxForMac, nameSpecified: 
+body: 
+                   …
+version: 2.1.4
+
+name: GTMOAuth2, nameSpecified: 
+body: 
+                   …
+version: 1.1.6
+
+name: GTMOAuth2, nameSpecified: 
+body: 
+                   …
+version: 1.1.6
+
+name: GTMSessionFetcher, nameSpecified: 
+body: 
+                   …
+version: 1.2.0
+
+name: GTMSessionFetcher, nameSpecified: 
+body: 
+                   …
+version: 1.2.0
+
+name: nanopb, nameSpecified: 
+body: Copyright (c) 2011 P…
+version: 0.3.8
+
+name: nanopb, nameSpecified: 
+body: Copyright (c) 2011 P…
+version: 0.3.8
+
+name: Protobuf, nameSpecified: 
+body: Copyright 2008 Googl…
+version: 3.6.0
+
+name: Protobuf, nameSpecified: 
+body: Copyright 2008 Googl…
+version: 3.6.0
+
+add-version-numbers: false
+
+LicensePlist Version: 1.8.3

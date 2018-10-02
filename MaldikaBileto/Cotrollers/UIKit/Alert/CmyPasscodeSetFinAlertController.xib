@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CmyPasscodeSetFinAlertController" customModule="Commoney" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="FMW-Qr-47C" id="MA6-0L-pSg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kKK-pc-RKm">
+                    <rect key="frame" x="67" y="223" width="240" height="220"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FMW-Qr-47C">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="220"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="パスコード設定完了" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Gp-vq-mLS">
+                                    <rect key="frame" x="33" y="37" width="175" height="23"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKF-Me-M1c">
+                                    <rect key="frame" x="33" y="93" width="175" height="34"/>
+                                    <string key="text">アカウント登録が
+すべて完了しました</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9K-wN-Bv7" customClass="RoundRectButton" customModule="Commoney" customModuleProvider="target">
+                                    <rect key="frame" x="33" y="155" width="175" height="33"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="174.5" id="m99-mi-DOM"/>
+                                        <constraint firstAttribute="height" constant="33" id="pE0-1H-Esz"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <state key="normal" title="始める">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="okButtonDidTap:" destination="-1" eventType="touchUpInside" id="yiV-Wl-rlY"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="rKF-Me-M1c" firstAttribute="centerY" secondItem="FMW-Qr-47C" secondAttribute="centerY" id="H5Z-3b-Ups"/>
+                                <constraint firstItem="6Gp-vq-mLS" firstAttribute="top" secondItem="FMW-Qr-47C" secondAttribute="top" constant="37" id="KdJ-MF-L3Z"/>
+                                <constraint firstAttribute="trailing" secondItem="rKF-Me-M1c" secondAttribute="trailing" constant="32.5" id="cRT-Zh-szA"/>
+                                <constraint firstAttribute="trailing" secondItem="6Gp-vq-mLS" secondAttribute="trailing" constant="32.5" id="ceb-VF-xo3"/>
+                                <constraint firstItem="rKF-Me-M1c" firstAttribute="top" secondItem="6Gp-vq-mLS" secondAttribute="bottom" constant="33" id="fvu-eg-2eH"/>
+                                <constraint firstAttribute="width" constant="240" id="g8i-Bf-tFl"/>
+                                <constraint firstItem="rKF-Me-M1c" firstAttribute="leading" secondItem="FMW-Qr-47C" secondAttribute="leading" constant="33" id="gd8-M7-E4R"/>
+                                <constraint firstItem="6Gp-vq-mLS" firstAttribute="leading" secondItem="FMW-Qr-47C" secondAttribute="leading" constant="33" id="jjv-6T-C8w"/>
+                                <constraint firstItem="rKF-Me-M1c" firstAttribute="leading" secondItem="g9K-wN-Bv7" secondAttribute="leading" id="nY5-GU-wLf"/>
+                                <constraint firstItem="g9K-wN-Bv7" firstAttribute="top" secondItem="rKF-Me-M1c" secondAttribute="bottom" constant="28" id="p2M-pG-fre"/>
+                                <constraint firstAttribute="height" constant="220" id="rcB-cC-Uh0"/>
+                                <constraint firstAttribute="bottom" secondItem="g9K-wN-Bv7" secondAttribute="bottom" constant="32" id="vji-Qq-zkN"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kKK-pc-RKm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="203" id="37A-NJ-Zjo"/>
+                <constraint firstItem="kKK-pc-RKm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pPe-Bw-hdc"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="33.5" y="75.5"/>
+        </view>
+    </objects>
+</document>

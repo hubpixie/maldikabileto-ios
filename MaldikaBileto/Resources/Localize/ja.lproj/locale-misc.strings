@@ -1,0 +1,222 @@
+/* 
+  locale-misc-jp.strings
+  MaldikaBileto-Mock
+
+  Created by x.yang on 2018/07/04.
+  Copyright © 2018年 x.yang. All rights reserved.
+*/
+//共通
+"Common.Yen" = "円";
+"Common.hasValue.label" = "設定済み";
+"Common.hasNotValue.label" = "未設定";
+"Common.hasVerified.label" = "認証済み";
+"Common.hasNotVerified.label" = "未認証";
+"Common.defaultCard.label" = "標準";
+"Common.cardExpirationDate.label" = "有効期限：";
+"Common.ticketExpirationDate.label" = "有効期限：";
+"Common.paymentInfo.label" = "支払い方法：クレジットカード（%@）";
+"Common.Ticket.Status" = "未使用,使用済,決済失敗,期限切れ";
+"Common.paymentStore.label" = "決済店舗：";
+"Common.paymentAt.label" = "決済日時：";
+"Common.paymentAmount.label" = "決済金額：";
+"Common.ticketNumber.label" = "ID：";
+"Common.ticketCreatedAt.label" = "作成日：";
+"Common.email.approvalState.check.none" = "メールアドレス認証がされておりません。メールアドレス認証後、再度実行してください。";
+
+"Common.errorMessage.title" = "エラー";
+"Common.warningMessage.title" = "警告";
+
+"Common.cmyApi.message.400" = "認証エラー::不正なアクセスと判断されました。(code:400)";
+"Common.cmyApi.message.404" = "エラー::ユーザまたは、データが存在しません。(code:404)";
+"Common.cmyApi.message.406" = "コンテンツエラー::権限が無いか、ステータスが一致しません。(code:406)";
+"Common.cmyApi.message.409" = "データエラー::データが重複しています。(code:409)";
+"Common.cmyApi.message.422" = "入力エラー::入力内容が不正です。\n入力内容を確認してください。(code:422)";
+"Common.cmyApi.message.500" = "システム内部エラー::時間をおいて再度実行してください。(code:500)";
+"Common.cmyApi.message.code" = "通信エラー::サーバとの通信に失敗しました。電波の良いところで実行するか、時間をおいて再度実行してください。(code:%d)";
+
+//電話番号入力画面
+"PhoneNumberRegistration.phoneNumberTextField.check.1" = "正しい電話番号を入力して下さい。";
+
+// SMS認証コード入力画面
+"EnterAuthentication.approveCheckButton.text.1" = "利用規約,https://MaldikaBileto.co.jp";
+"EnterAuthentication.approveCheckButton.text.2" = " および";
+"EnterAuthentication.approveCheckButton.text.3" = "プライバシーポリシー\n,https://MaldikaBileto.jp";
+"EnterAuthentication.approveCheckButton.text.4" = "に同意します";
+"EnterAuthentication.smsCodeInputTextField.check.1" = "入力された認証コードを認識できませんでした。もう一度実行してください。";
+
+
+//プロフィール登録画面
+"UserProfileRegistration.genderTextField.dropdown.list" = "不明,男性,女性,その他";
+
+//メールまたはSNS登録画面
+"UserRegistration.emailTextField.check.1" = "メールアドレスを正しく入力してください。";
+"UserRegistration.emailPwdTextField.check.1" = "パスワードを６桁以上入力してください。";
+"UserRegistration.emailPwdTwoTextField.check.1" = "「パスワード（確認）」は「パスワード」と同じ値を入力してください。";
+"UserRegistration.nextButton.check.ok" = "アカウント登録が完了しました";
+"UserRegistration.nextButton.check.error.1" = "Google認証エラー";
+"UserRegistration.nextButton.sendMail.message" = "認証メールを送りました。ご確認ください";
+
+//ログイン画面
+"UserLogin.emailTextField.check.1" = "メールアドレスを正しく入力してください。";
+"UserLogin.emailPwdTextField.check.1" = "パスワードを入力してください。";
+"UserLogin.view.check.1" = "電話番号認証したアカウントでログインしてください。";
+"UserLogin.view.check.2" = "すでに別ユーザがログインしています。";
+"UserLogin.view.check.3" = "電話番号認証したアカウントでログインしてください。";
+"UserLogin.view.check.4" = "ログインエラー";
+
+//パスワードリセット画面
+"ResetPassword.navigationbar.top.title" = "パスワードリセット";
+"ResetPassword.sendResetMessage.message" = "メールアドレスにパスワード\nリセットメールを送信しました。\n\nメール内容のリンクをクリックして、\nパスワードをリセットしてください";
+
+//チケット一覧画面
+"TicketList.view.check.1" = "通信エラーが発生しました。\n再度チケット情報を取得します。";
+"TicketList.view.check.2" = "通信エラーが発生しました。\n実行します。";
+"TicketList.view.check.3" = "標準カードが登録されておりません。標準カード登録後、再度実行してください。";
+"TicketList.navigationbar.top.title" = "";
+"TicketList.amountLabel.private.title" = "自分で使用";
+"TicketList.expiryDateLabel.expired.title" = "有効期限切れ";
+"TicketList.navigationbar.leftNaviButton.title" = "自分で使う";
+"TicketList.navigationbar.rightNaviButton.title" = "filter";
+"TicketList.navigationbar.rightNaviButton.menuitems" = "すべて,未使用,決済失敗,使用済,期限切れ,自分で使用";
+
+//チケット発行画面
+"TicketIssue.navigationbar.top.title" = "チケットを発行";
+"TicketIssue.paymentMethodButton.title.cardSelect" = "カード選択";
+"TicketIssue.view.check.1" = "通信エラーが発生しました。\n再度カード情報を取得します。";
+"TicketIssue.amountTextField.check.1" = "金額を入力してください。";
+"TicketIssue.amountTextField.check.2" = "チケット金額は1円以上、30,000円以下の範囲で入力してください。";
+"TicketIssue.paymentMethodButton.check.1" = "クレジットカードを選択してください。";
+"TicketIssue.expiryDateTextField.check.1" = "チケット期限は本日以上、６ヶ月以下の範囲で入力してください";
+"TicketIssue.ticketTitleTextField.check.1" = "タイトルを入力して下さい。";
+"TicketIssue.ticketTitleTextField.check.2" = "タイトルは255文字以内で入力して下さい。";
+
+//チケット詳細画面
+"TicketDetail.navigationbar.top.title" = "チケット";
+
+//チケット発行プレビュー画面
+"TicketIssuePreview.navigationbar.top.title" = "プレビュー";
+"TicketIssuePreview.view.check.1" = "通信エラーが発生しました。\n再度チケット情報を取得します。";
+"TicketIssuePreview.view.check.2" = "チケット発行が正しく行えませんでした。\n";
+
+//自己使用チケット使用_QR画面
+"SelfTicketView.view.check.1" = "通信エラーが発生しました。\n再度カード情報を取得します。";
+"SelfTicketView.navigationbar.top.title" = "自分で使う";
+
+//未使用チケット削除画面
+"TicketRemoveConfirm.remarkLabel.text.gift" = "無効化しますので\n\n送った方が使用できなくなります";
+"TicketRemoveConfirm.remarkLabel.text.private" = "無効化しますので\n\n使用できなくなります";
+
+//クレジットカード一覧画面
+"CreditCardList.navigationbar.top.title" = "クレジットカード管理";
+"CreditCardList.view.check.notFound" = "クレジットカードが登録されていません。\nクレジットカードを登録してください。";
+
+//クレジットカード登録画面
+"CreditCardRegistration.navigationbar.top.title" = "新しいクレジットカードを登録";
+"CreditCardRegistration.defaultCardCheckButton.label" = "標準カードに設定";
+"CreditCardRegistration.view.check.1" = "クレジットカード登録処理にてエラーが発生しました。\n再度登録ボタンを押下して下さい。";
+"CreditCardRegistration.registerButton.addCard.ok" = "クレジットカードが正しく登録されました。";
+"CreditCardRegistration.cardIDTextField.check.1" = "14桁から16桁の数字を入力してください";
+"CreditCardRegistration.cardExPirationDateTextField.check.1" = "mm/yyの形式で有効年月を入力してください";
+"CreditCardRegistration.securityCodeTextField.check.1" = "3桁以上の数字を入力してください";
+
+//クレジットカード詳細画面
+"CreditCardDetails.navigationbar.top.title" = "カード詳細情報";
+"CreditCardDetails.deleteCard.ok.message.1" = "クレジットカードおよび紐づいている未使用チケットを削除しました。新しく標準カードを設定してください。";
+"CreditCardDetails.deleteCard.ok.message.2" = "クレジットカードおよび紐づいている未使用チケットを削除しました。";
+"CreditCardDetails.deleteCard.error.message.1" = "通信エラーが発生しました。\n再度実行します。";
+"CreditCardDetails.defaultCard.change.ok.message" = "標準カードに設定しました。";
+
+//設定画面
+"AppSettings.navigationbar.top.title" = "設定";
+"AppSettings.tableView.section.titles" = "会員管理,アプリについて";
+"AppSettings.tableView.section_1.cellTitles" = "会員情報,支払い方法,プライバシー管理,セキュリティ管理";
+"AppSettings.tableView.section_2.cellTitles" = "ご利用ガイド,ヘルプ,利用規約,プライバシーポリシー,ライセンス,お問い合わせ";
+"AppSettings.tableView.section_2.howtoUseCell.url" = "ご利用ガイド,https://MaldikaBileto.jp";
+"AppSettings.tableView.section_2.helpCell.url" = "ヘルプ,https://MaldikaBileto.co.jp/#about";
+"AppSettings.tableView.section_2.serviceItemsCell.url" = "利用規約,https://MaldikaBileto.co.jp";
+"AppSettings.tableView.section_2.privacyPolicyCell.url" = "プライバシーポリシー,https://MaldikaBileto.jp";
+"AppSettings.tableView.section_2.serviceInfoCell.mailto" = "お問い合わせ,mailto:inquiry@MaldikaBileto.jp?subject=コモニーアプリ問合せ&body=お問い合わせお客様識別子：(%@)\n以下に問い合わせ内容を記述ください。";
+
+//プライバシー管理画面
+"PrivacySettings.navigationbar.top.title" = "プライバシー管理";
+
+//セキュリティ管理画面
+"EditPasscode.navigationbar.top.title" = "セキュリティ管理";
+
+//ライセンス一覧画面
+"LicenseList.navigationbar.top.title" = "ライセンス";
+
+//パスコード関連
+"PasscodeSetting.makeCode.title" = "パスコード設定";
+"PasscodeSetting.makeCode.description" = "チケット発行時に必要です\nパスコードを入力してください";
+"PasscodeSetting.makeCode.again.title" = "パスコード再入力";
+"PasscodeSetting.makeCode.again.description" = "確認のため、もう一度入力してください";
+"PasscodeSetting.makeCode.error" = "パスコードが一致しません。\r\n正しい値を入力して下さい。";
+"PasscodeSetting.changeCode.first.title" = "現在のパスコード入力";
+"PasscodeSetting.changeCode.first.description" = "現在のパスコードを入力してください";
+"PasscodeSetting.changeCode.last.title" = "新しいパスコード入力";
+"PasscodeSetting.changeCode.last.description" = "新しいパスコードを入力してください";
+"PasscodeSetting.changeCode.error" = "パスコードが一致しません。\r\n正しい値を入力して下さい。";
+"PasscodeSetting.authenticate.title" = "パスコード入力";
+"PasscodeSetting.authenticate.description" = "パスコードを入力してください";
+"PasscodeSetting.authenticate.error.1" = "パスコードが一致しません。\r\n正しい値を入力して下さい。";
+"PasscodeSetting.authenticate.error.2" = "パスコードエラー。\n一定回数以上パスコードを間違えたので、ログアウトします。ログインからやり直してください。";
+
+"PasscodeSetting.OK" = "OK";
+"PasscodeSetting.Error" = "エラー";
+"PasscodeSetting.Cancel" = "キャンセル";
+
+//お知らせ一覧画面
+"InquireList.navigationbar.top.title" = "お知らせ";
+"InquireList.view.check.1" = "通信エラーが発生しました。\n再度お知らせ情報を取得します。";
+
+//会員情報画面
+"UserInfomation.navigationbar.top.title" = "会員情報";
+"UserInfomation.tableView.section.titles" = "プロフィール,,";
+"UserInfomation.view.check.1" = "通信エラーが発生しました。\n再度ユーザ情報を取得します。";
+"UserInfomation.view.check.2" = "通信エラーが発生しました。\n再度ログアウトを実施します。";
+"UserInfomation.view.check.3" = "通信エラーが発生しました。\n再度退会処理を実施します。";
+"UserInfomation.tableView.section.withdrawal.message" = "退会されました。";
+
+//ニックネーム変更画面
+"EditUserNickname.navigationbar.top.title" = "ニックネーム　変更";
+"EditUserNickname.nicknameTextField.check.message" = "1文字以上、50文字以下で入力してください";
+
+//生年月日変更画面
+"EditBirthday.navigationbar.top.title" = "生年月日　変更";
+
+//性別変更画面
+"EditGender.navigationbar.top.title" = "性別　変更";
+
+//電話番号変更画面
+"EditPhoneNumber.navigationbar.top.title" = "電話番号変更";
+"EditPhoneNumber.phoneNumberTextField.check.1" = "電話番号は10桁または11桁の数字で入力してください";
+
+//電話番号変更画面（SMS認証コード入力）
+"EditAuthenticationCode.navigationbar.top.title" = "電話番号変更";
+"EditAuthenticationCode.smsCodeInputTextField.check.1" = "半角数字6桁で入力してください";
+"EditAuthenticationCode.smsCodeInputTextField.check.2" = "入力された認証コードを認識できませんでした。もう一度実行してください。";
+
+//パスワード設定画面
+"EditPassword.navigationbar.top.title" = "パスワード設定";
+"EditPassword.emailPwdTextField.check.1" = "現在のパスワードを6桁以上入力してください。";
+"EditPassword.emailPwdTwoTextField.check.1" = "新しいパスワードを6桁以上入力してください。";
+"EditPassword.emailPwdTwoTextField.check.2" = "変更するパスワードが現在の値と同じです。";
+"EditPassword.emailPwdThreeTextField.check.1" = "「新しいパスワード（確認）」は「新しいパスワード」と同じ値を入力してください。";
+
+//メールアドレス設定画面
+"AddMailAddress.navigationbar.top.title" = "メールアドレス設定";
+"AddMailAddress.emailTextField.check.1" = "メールアドレスを正しく入力してください。";
+"AddMailAddress.emailPwdTextField.check.1" = "パスワードを６桁以上入力してください。";
+"AddMailAddress.emailPwdTwoTextField.check.1" = "「パスワード（確認）」は「パスワード」と同じ値を入力してください。";
+
+//メールアドレス変更画面
+"EditMailAddress.navigationbar.top.title" = "メールアドレス変更";
+"EditMailAddress.emailTextField.check.1" = "メールアドレスを正しく入力してください。";
+
+//SNS連携画面
+"EditSnsLinkage.navigationbar.top.title" = "SNS連携";
+"EditSnsLinkage.view.error.1" = "通信エラーが発生しました。\n再度処理を実施します。";
+
+//内部ブラウザ
+"Web.errorPage.offline.message" = "ウェブページへのアクセス不可::ウェブページ(%@)は次の理由で読み込めませんでした<br>&nbsp;&nbsp;%@";

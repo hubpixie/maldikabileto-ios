@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="InquireHeaderView" customModule="Commoney" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0If-TA-p4K">
+                    <rect key="frame" x="16" y="12" width="317" height="46"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z68-Le-F4n">
+                    <rect key="frame" x="16" y="59" width="348" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvm-fS-jZH">
+                    <rect key="frame" x="338" y="23" width="26" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="26" id="OQH-ND-6ii"/>
+                    </constraints>
+                    <state key="normal" image="ico_down_arrow"/>
+                    <connections>
+                        <action selector="arrowButtondidTapHeader:" destination="iN0-l3-epB" eventType="touchUpInside" id="7nq-Pu-R8e"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zet-hb-Tqe" userLabel="Bottom Border View">
+                    <rect key="frame" x="0.0" y="89" width="375" height="1"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0If-TA-p4K" firstAttribute="leading" secondItem="Z68-Le-F4n" secondAttribute="leading" id="4SJ-ZJ-r2P"/>
+                <constraint firstItem="Z68-Le-F4n" firstAttribute="top" secondItem="0If-TA-p4K" secondAttribute="bottom" constant="1" id="5Bu-SJ-PxF"/>
+                <constraint firstAttribute="trailing" secondItem="nvm-fS-jZH" secondAttribute="trailing" constant="11" id="7Hy-DQ-oSz"/>
+                <constraint firstItem="Zet-hb-Tqe" firstAttribute="top" secondItem="Z68-Le-F4n" secondAttribute="bottom" constant="8" id="Bmu-Ua-1uH"/>
+                <constraint firstItem="0If-TA-p4K" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="DuX-PC-a6T"/>
+                <constraint firstItem="nvm-fS-jZH" firstAttribute="trailing" secondItem="Z68-Le-F4n" secondAttribute="trailing" id="HE3-qz-9ZZ"/>
+                <constraint firstItem="Zet-hb-Tqe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IBU-wN-KKl"/>
+                <constraint firstAttribute="trailing" secondItem="Zet-hb-Tqe" secondAttribute="trailing" id="Ij6-T2-tV8"/>
+                <constraint firstItem="nvm-fS-jZH" firstAttribute="leading" secondItem="0If-TA-p4K" secondAttribute="trailing" constant="5" id="JVJ-dQ-aNA"/>
+                <constraint firstItem="Z68-Le-F4n" firstAttribute="top" secondItem="nvm-fS-jZH" secondAttribute="bottom" constant="12" id="bQe-lZ-V4L"/>
+                <constraint firstItem="0If-TA-p4K" firstAttribute="centerY" secondItem="nvm-fS-jZH" secondAttribute="centerY" id="eTY-OS-Ehk"/>
+                <constraint firstItem="0If-TA-p4K" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="frO-At-nw4"/>
+                <constraint firstAttribute="bottom" secondItem="Zet-hb-Tqe" secondAttribute="bottom" id="j9L-qO-ncM"/>
+                <constraint firstAttribute="bottom" secondItem="Z68-Le-F4n" secondAttribute="bottom" constant="9" id="ooM-3n-Ulg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="arrowButton" destination="nvm-fS-jZH" id="Z4k-F5-yTm"/>
+                <outlet property="bottomBorderView" destination="Zet-hb-Tqe" id="5WF-py-k8i"/>
+                <outlet property="createAtLabel" destination="Z68-Le-F4n" id="VQF-I2-uU4"/>
+                <outlet property="titleLabel" destination="0If-TA-p4K" id="Ulo-Px-YTr"/>
+            </connections>
+            <point key="canvasLocation" x="34.399999999999999" y="96.251874062968525"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ico_down_arrow" width="32" height="24"/>
+    </resources>
+</document>

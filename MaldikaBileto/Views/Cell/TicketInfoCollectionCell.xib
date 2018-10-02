@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TicketInfoCollectionCell" customModule="Commoney" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="94"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="94"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t2H-1l-kfY">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="94"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="タイトル" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Osu-Fo-oln">
+                                <rect key="frame" x="20" y="10" width="65.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2,000円" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRk-vN-1ia">
+                                <rect key="frame" x="20" y="47" width="82.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="未使用" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVE-jp-mN9">
+                                <rect key="frame" x="275" y="8.5" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2018/10/20" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PgA-WR-xv0">
+                                <rect key="frame" x="258" y="53" width="69" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PgA-WR-xv0" firstAttribute="centerY" secondItem="RRk-vN-1ia" secondAttribute="centerY" id="1N1-ig-dFs"/>
+                            <constraint firstItem="IVE-jp-mN9" firstAttribute="baseline" secondItem="Osu-Fo-oln" secondAttribute="baseline" id="614-uS-9of"/>
+                            <constraint firstItem="Osu-Fo-oln" firstAttribute="leading" secondItem="t2H-1l-kfY" secondAttribute="leading" constant="20" id="ItM-B3-zix"/>
+                            <constraint firstItem="RRk-vN-1ia" firstAttribute="leading" secondItem="Osu-Fo-oln" secondAttribute="leading" id="JvG-OA-adD"/>
+                            <constraint firstItem="RRk-vN-1ia" firstAttribute="top" secondItem="Osu-Fo-oln" secondAttribute="top" constant="37" id="SBa-uy-9a5"/>
+                            <constraint firstItem="IVE-jp-mN9" firstAttribute="top" secondItem="t2H-1l-kfY" secondAttribute="top" constant="19" id="T13-ye-5FK"/>
+                            <constraint firstAttribute="width" constant="340" id="UTC-5L-cES"/>
+                            <constraint firstAttribute="trailing" secondItem="IVE-jp-mN9" secondAttribute="trailing" constant="13" id="Yr7-Io-j3K"/>
+                            <constraint firstItem="PgA-WR-xv0" firstAttribute="top" secondItem="IVE-jp-mN9" secondAttribute="bottom" constant="12" id="dNn-yt-4sp"/>
+                            <constraint firstItem="Osu-Fo-oln" firstAttribute="top" secondItem="t2H-1l-kfY" secondAttribute="top" constant="10" id="mKW-OM-dwY"/>
+                            <constraint firstItem="PgA-WR-xv0" firstAttribute="trailing" secondItem="IVE-jp-mN9" secondAttribute="trailing" id="rS5-tB-Mo0"/>
+                            <constraint firstAttribute="bottom" secondItem="RRk-vN-1ia" secondAttribute="bottom" constant="20.5" id="vMD-qW-0gI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="t2H-1l-kfY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4mF-Vc-KpF"/>
+                <constraint firstAttribute="bottom" secondItem="t2H-1l-kfY" secondAttribute="bottom" id="L3U-PG-eje"/>
+                <constraint firstItem="t2H-1l-kfY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="XBK-DU-4dU"/>
+                <constraint firstAttribute="trailing" secondItem="t2H-1l-kfY" secondAttribute="trailing" id="qT5-c0-SW2"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="196" height="44"/>
+            <connections>
+                <outlet property="amountLabel" destination="RRk-vN-1ia" id="S1v-Et-OAO"/>
+                <outlet property="expiryDateLabel" destination="PgA-WR-xv0" id="7c9-jJ-k6h"/>
+                <outlet property="statusLabel" destination="IVE-jp-mN9" id="3SC-4H-5nF"/>
+                <outlet property="titleLabel" destination="Osu-Fo-oln" id="JPE-Ah-xfo"/>
+                <outlet property="widthConstraint" destination="UTC-5L-cES" id="Shb-5Q-RlS"/>
+            </connections>
+            <point key="canvasLocation" x="8" y="33"/>
+        </collectionViewCell>
+    </objects>
+</document>
