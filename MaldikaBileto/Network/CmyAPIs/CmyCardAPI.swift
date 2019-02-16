@@ -8,6 +8,7 @@
 
 import Foundation
 import Alamofire
+import PromiseKit
 import SwaggerClient
 
 class CmyCardAPI {
@@ -23,7 +24,25 @@ class CmyCardAPI {
         }
     }
     
+    /**
+     クレジットカード登録
+     
+     - parameter body: (body)  (optional)
+     - returns: Promise<Card>
+     */
+    open class func addCard(body: CardForAdd? = nil) -> Promise<Card> {
+        let deferred = Promise<Card>.pending()
+        addCard(body: body) { data, error in
+            if let error = error {
+                deferred.resolver.reject(error)
+            } else {
+                deferred.resolver.fulfill(data!)
+            }
+        }
+        return deferred.promise
+    }
     
+
     /**
      クレジットカード登録
      - POST /client/card
@@ -58,8 +77,7 @@ class CmyCardAPI {
      - name: bearerAuth
      
      - parameter cardId: (path) カードID
-     
-     - returns: RequestBuilder<Void>
+     - parameter completion: @escaping ((_ data: Void?,_ error: Error?) -> Void)
      */
     open class func changeDefaultCard(cardId: String, completion: @escaping ((_ data: Void?,_ error: Error?) -> Void)) {
         changeDefaultCardWithRequestBuilder(cardId: cardId).execute { (response, error) -> Void in
@@ -71,7 +89,31 @@ class CmyCardAPI {
         }
     }
     
+    /**
+     標準クレジットカード変更
+     - PUT /client/card/{card_id}
+     - #### 処理概要 * MaldikaBiletoDBにユーザーが存在するかチェック(存在しなければ404を返す) * ベリトランスに登録済みのカードの「標準カードフラグ」を変更する
+     - BASIC:
+     - type: http
+     - name: bearerAuth
+     
+     - parameter cardId: (path) カードID
+     
+     - returns: RequestBuilder<Void>
+     */
+    open class func changeDefaultCard(cardId: String) -> Promise<Void> {
+        let deferred = Promise<Void>.pending()
+        changeDefaultCard(cardId: cardId) { data, error in
+            if let error = error {
+                deferred.resolver.reject(error)
+            } else {
+                deferred.resolver.fulfill(data!)
+            }
+        }
+        return deferred.promise
+    }
     
+
     /**
      標準クレジットカード変更
      - PUT /client/card/{card_id}
@@ -106,8 +148,7 @@ class CmyCardAPI {
      - name: bearerAuth
      
      - parameter cardId: (path) カードID
-     
-     - returns: RequestBuilder<Void>
+     - parameter completion: @escaping ((_ data: Void?,_ error: Error?) -> Void)
      */
     open class func deleteCard(cardId: String, completion: @escaping ((_ data: Void?,_ error: Error?) -> Void)) {
         deleteCardWithRequestBuilder(cardId: cardId).execute { (response, error) -> Void in
@@ -119,7 +160,31 @@ class CmyCardAPI {
         }
     }
     
+    /**
+     クレジットカード削除
+     - DELETE /client/card/{card_id}
+     - #### 処理概要 * MaldikaBiletoDBにユーザーが存在するかチェック(存在しなければ404を返す) * 対象ユーザーの未使用チケットを全て削除する * 対象ユーザーのクレジットカード情報を、ベリトランスから削除する
+     - BASIC:
+     - type: http
+     - name: bearerAuth
+     
+     - parameter cardId: (path) カードID
+     
+     - returns: Promise<Void>
+     */
+    open class func deleteCard(cardId: String) -> Promise<Void> {
+        let deferred = Promise<Void>.pending()
+        deleteCard(cardId: cardId) { data, error in
+            if let error = error {
+                deferred.resolver.reject(error)
+            } else {
+                deferred.resolver.fulfill(data!)
+            }
+        }
+        return deferred.promise
+    }
     
+
     /**
      クレジットカード削除
      - DELETE /client/card/{card_id}
@@ -155,7 +220,24 @@ class CmyCardAPI {
         }
     }
     
+    /**
+     クレジットカード一覧取得
+     
+     - parameter completion: completion handler to receive the data and the error objects
+     */
+    open class func getCardList() -> Promise<CardList> {
+        let deferred = Promise<CardList>.pending()
+        getCardList() { data, error in
+            if let error = error {
+                deferred.resolver.reject(error)
+            } else {
+                deferred.resolver.fulfill(data!)
+            }
+        }
+        return deferred.promise
+    }
     
+
     /**
      クレジットカード一覧取得
      - GET /client/card

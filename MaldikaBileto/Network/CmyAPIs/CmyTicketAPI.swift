@@ -8,12 +8,12 @@
 
 import Foundation
 import Alamofire
+import PromiseKit
 import SwaggerClient
 
 class CmyTicketAPI {
     /**
      チケット削除
-     
      - parameter ticketNumber: (path) チケット番号
      - parameter completion: completion handler to receive the data and the error objects
      */
@@ -27,6 +27,23 @@ class CmyTicketAPI {
         }
     }
     
+    /**
+     チケット削除
+     - parameter ticketNumber: (path) チケット番号
+     - returns: Promise<Void>
+     */
+    class func deleteTicket(ticketNumber: String) -> Promise<Void> {
+        let deferred = Promise<Void>.pending()
+
+        deleteTicket(ticketNumber: ticketNumber) {(data, error) in
+            if let error = error {
+                deferred.resolver.reject(error)
+            } else {
+                deferred.resolver.fulfill(data!)
+            }
+        }
+        return deferred.promise
+    }
     
     /**
      チケット削除

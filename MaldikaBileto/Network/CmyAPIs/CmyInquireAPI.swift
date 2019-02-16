@@ -8,6 +8,7 @@
 
 import Foundation
 import Alamofire
+import PromiseKit
 import SwaggerClient
 
 class CmyInquireAPI {
@@ -25,7 +26,27 @@ class CmyInquireAPI {
         }
     }
     
+    /**
+     お知らせ一覧取得
+     
+     - parameter page: (query) 現在ページ数 (optional)
+     - parameter limit: (query) 取得最大件数 (optional)
+     
+     - returns: Promise<InquireList>
+     */
+    class func getInquireList(page: Int? = nil, limit: Int? = nil) -> Promise<InquireList> {
+        let deferred = Promise<InquireList>.pending()
+        getInquireList(page: page, limit: limit) { data, error in
+            if let error = error {
+                deferred.resolver.reject(error)
+            } else {
+                deferred.resolver.fulfill(data!)
+            }
+        }
+        return deferred.promise
+    }
     
+
     /**
      お知らせ一覧取得
      - GET /client/inquire

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PromiseKit
 
 class CmyCreditCardRegistrationViewController: CmyViewController {
 
@@ -23,6 +24,7 @@ class CmyCreditCardRegistrationViewController: CmyViewController {
 
     private var _newCard: Card?
     var dismissHandler: ((_ czrd: Card?)->())!
+    var dismissHandler__: Promise<Card?>?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -81,6 +83,7 @@ class CmyCreditCardRegistrationViewController: CmyViewController {
         if let handler = self.dismissHandler {
             handler(self._newCard)
         }
+
         super.viewDidDisappear(animated)
     }
 
